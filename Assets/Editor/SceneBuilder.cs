@@ -20,6 +20,12 @@ public static class SceneBuilder
     [MenuItem("Mob Rush/Build Scene")]
     public static void BuildScene()
     {
+        if (EditorApplication.isPlaying)
+        {
+            EditorUtility.DisplayDialog("Mob Rush", "Keluar dari Play Mode dulu (klik tombol Play lagi untuk stop), baru jalankan Build Scene. Scene tidak bisa disimpan saat Play Mode aktif.", "OK");
+            return;
+        }
+
         Scene scene = EditorSceneManager.GetActiveScene();
         foreach (GameObject go in scene.GetRootGameObjects()) Object.DestroyImmediate(go);
         Directory.CreateDirectory("Assets/Materials");
