@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!129 &1
+PlayerSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 33
+  productGUID: 7d3f9a1c2e4b4f8a9c0d1e2f3a4b5c6d
+  AndroidProfiler: 0
+  AndroidFilterTouchesWhenObscured: 0
+  AndroidEnableSustainedPerformanceMode: 0
+  defaultScreenOrientation: 1
+  targetDevice: 2
+  useOnDemandResources: 0
+  accelerometerFrequency: 60
+  companyName: Codelab Game Studio
+  productName: Mob Rush
+  defaultCursor: {fileID: 0}
+  cursorHotspot: {x: 0, y: 0}
+  splashScreenBackgroundColor: {r: 0.04, g: 0.05, b: 0.09, a: 1}
+  showUnitySplashScreen: 1
+  showUnitySplashLogo: 1
+  splashScreenBackgroundSource: 1
+  splashScreenLogoStyle: 1
+  splashScreenDrawMode: 0
+  splashScreenAnimation: 0
+  splashScreenLogo: {fileID: 0}
+  splashScreenBackground: {fileID: 0}
+  defaultScreenWidth: 1080
+  defaultScreenHeight: 1920
+  defaultScreenWidthWeb: 960
+  defaultScreenHeightWeb: 600
+  m_StereoRenderingPath: 0
+  m_StereoRenderingPathAndroid: 0
+  applicationIdentifier:
+    Android: com.codelab.mobrush
+    Standalone: com.codelab.mobrush
+    iOS: com.codelab.mobrush
+    tvOS: com.codelab.mobrush
+  bundleVersion: 1.0
+  AndroidBundleVersionCode: 1
+  AndroidMinSdkVersion: 24
+  AndroidTargetSdkVersion: 0
+  AndroidPreferredInstallLocation: 1
+  allowedAutorotateToPortrait: 1
+  allowedAutorotateToPortraitUpsideDown: 0
+  allowedAutorotateToLandscapeLeft: 0
+  allowedAutorotateToLandscapeRight: 0
+  defaultIsFullScreen: 1
+  runInBackground: 0
+  captureSingleScreen: 0
+  colorSpace: 0
+  gpuSkinning: 0
+  graphicsJobs: 0
+  staticBatching: 1
+  dynamicBatching: 1
+  streamingMipmaps: 0
+  preloadedAssets: []
